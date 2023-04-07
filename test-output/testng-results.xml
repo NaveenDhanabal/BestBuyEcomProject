@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-07T14:03:27 IST" name="Suite" finished-at="2023-04-07T14:09:47 IST" duration-ms="379761">
+    <groups>
+    </groups>
+    <test started-at="2023-04-07T14:03:27 IST" name="Test" finished-at="2023-04-07T14:09:47 IST" duration-ms="379761">
+      <class name="testcases.SearchbyItemTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:06:50 IST" name="Startup" finished-at="2023-04-07T14:06:51 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="AddItem_BySearch()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:06:51 IST" name="AddItem_BySearch" finished-at="2023-04-07T14:08:01 IST" duration-ms="69612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItem_BySearch -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:08:01 IST" name="close" finished-at="2023-04-07T14:08:01 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:08:01 IST" name="Startup" finished-at="2023-04-07T14:08:05 IST" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="Product_Unavailable()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:08:05 IST" name="Product_Unavailable" finished-at="2023-04-07T14:08:12 IST" duration-ms="6915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_Unavailable -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:08:12 IST" name="close" finished-at="2023-04-07T14:08:12 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:08:12 IST" name="Startup" finished-at="2023-04-07T14:08:14 IST" duration-ms="1685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="Search_invalid_Item()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:08:14 IST" name="Search_invalid_Item" finished-at="2023-04-07T14:08:41 IST" duration-ms="27207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_invalid_Item -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SearchbyItemTest@36ebc363]" started-at="2023-04-07T14:08:41 IST" name="close" finished-at="2023-04-07T14:08:41 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.SearchbyItemTest -->
+      <class name="testcases.CreateAccountTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.CreateAccountTest@55182842]" started-at="2023-04-07T14:03:27 IST" name="Startup" finished-at="2023-04-07T14:03:30 IST" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="CreateAccount_USA()[pri:0, instance:testcases.CreateAccountTest@55182842]" started-at="2023-04-07T14:03:30 IST" name="CreateAccount_USA" finished-at="2023-04-07T14:03:46 IST" duration-ms="15619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount_USA -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.CreateAccountTest@55182842]" started-at="2023-04-07T14:03:46 IST" name="close" finished-at="2023-04-07T14:03:46 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.CreateAccountTest -->
+      <class name="testcases.MenuNavigationTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.MenuNavigationTest@45752059]" started-at="2023-04-07T14:08:41 IST" name="Startup" finished-at="2023-04-07T14:08:43 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="Menulist()[pri:0, instance:testcases.MenuNavigationTest@45752059]" started-at="2023-04-07T14:08:43 IST" name="Menulist" finished-at="2023-04-07T14:09:46 IST" duration-ms="63355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menulist -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.MenuNavigationTest@45752059]" started-at="2023-04-07T14:09:46 IST" name="close" finished-at="2023-04-07T14:09:47 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.MenuNavigationTest -->
+      <class name="testcases.SigninTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:03:46 IST" name="Startup" finished-at="2023-04-07T14:03:48 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="SignIn_ValidCredential()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:03:48 IST" name="SignIn_ValidCredential" finished-at="2023-04-07T14:04:07 IST" duration-ms="19033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn_ValidCredential -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:04:07 IST" name="close" finished-at="2023-04-07T14:04:07 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:04:07 IST" name="Startup" finished-at="2023-04-07T14:04:09 IST" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="SignIn_inValidCredential()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:04:09 IST" name="SignIn_inValidCredential" finished-at="2023-04-07T14:04:33 IST" duration-ms="24054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn_inValidCredential -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:04:33 IST" name="close" finished-at="2023-04-07T14:04:33 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:04:33 IST" name="Startup" finished-at="2023-04-07T14:04:35 IST" duration-ms="1947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="SignUpPageCanada()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:04:35 IST" name="SignUpPageCanada" finished-at="2023-04-07T14:04:52 IST" duration-ms="17487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageCanada -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SigninTest@292b08d6]" started-at="2023-04-07T14:04:52 IST" name="close" finished-at="2023-04-07T14:04:53 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.SigninTest -->
+      <class name="testcases.AddItemsTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.AddItemsTest@22555ebf]" started-at="2023-04-07T14:04:53 IST" name="Startup" finished-at="2023-04-07T14:04:55 IST" duration-ms="1787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="BrandName()[pri:0, instance:testcases.AddItemsTest@22555ebf]" started-at="2023-04-07T14:04:55 IST" name="BrandName" finished-at="2023-04-07T14:06:49 IST" duration-ms="114696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrandName -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AddItemsTest@22555ebf]" started-at="2023-04-07T14:06:49 IST" name="close" finished-at="2023-04-07T14:06:50 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.AddItemsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
