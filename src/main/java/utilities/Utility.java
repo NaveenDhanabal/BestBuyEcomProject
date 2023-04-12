@@ -41,8 +41,8 @@ public class Utility {
 			WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
 		}else if(browsername.equals("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
-//			System.setProperty("webdriver.gecko.driver", "D:\\Driver\\geckodriver.exe");
+//			WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver", "D:\\Driver\\geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 		driver.manage().window().maximize();
