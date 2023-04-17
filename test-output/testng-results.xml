@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-12T18:45:19 IST" name="Default suite" finished-at="2023-04-12T18:45:49 IST" duration-ms="30366">
+  <suite started-at="2023-04-17T21:06:43 IST" name="Default suite" finished-at="2023-04-17T21:07:19 IST" duration-ms="35982">
     <groups>
     </groups>
-    <test started-at="2023-04-12T18:45:19 IST" name="Default test" finished-at="2023-04-12T18:45:49 IST" duration-ms="30366">
-      <class name="testcases.CreateAccountTest">
-        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.CreateAccountTest@368f2016]" started-at="2023-04-12T18:45:19 IST" name="Startup" finished-at="2023-04-12T18:45:21 IST" duration-ms="2335" status="PASS">
+    <test started-at="2023-04-17T21:06:43 IST" name="Default test" finished-at="2023-04-17T21:07:19 IST" duration-ms="35982">
+      <class name="testcases.SigninTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:testcases.SigninTest@48f2bd5b]" started-at="2023-04-17T21:06:43 IST" name="Startup" finished-at="2023-04-17T21:06:50 IST" duration-ms="6512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startup -->
-        <test-method signature="CreateAccount_USA()[pri:0, instance:testcases.CreateAccountTest@368f2016]" started-at="2023-04-12T18:45:21 IST" name="CreateAccount_USA" finished-at="2023-04-12T18:45:49 IST" duration-ms="27602" status="PASS">
+        <test-method signature="SignIn_ValidCredential()[pri:0, instance:testcases.SigninTest@48f2bd5b]" started-at="2023-04-17T21:06:50 IST" name="SignIn_ValidCredential" finished-at="2023-04-17T21:07:18 IST" duration-ms="28392" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateAccount_USA -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.CreateAccountTest@368f2016]" started-at="2023-04-12T18:45:49 IST" name="close" finished-at="2023-04-12T18:45:49 IST" duration-ms="383" status="PASS">
+        </test-method> <!-- SignIn_ValidCredential -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SigninTest@48f2bd5b]" started-at="2023-04-17T21:07:18 IST" name="close" finished-at="2023-04-17T21:07:19 IST" duration-ms="1035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testcases.CreateAccountTest -->
+      </class> <!-- testcases.SigninTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

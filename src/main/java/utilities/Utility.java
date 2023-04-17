@@ -15,6 +15,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Utility {
@@ -43,7 +45,12 @@ public class Utility {
 		}else if(browsername.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 //			System.setProperty("webdriver.gecko.driver", "D:\\Driver\\geckodriver.exe");
-			driver=new FirefoxDriver();
+			FirefoxOptions options = new FirefoxOptions();
+			 options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+			 //to disable the permission pop-up
+			 options.addPreference("dom.webnotifications.enabled", false);
+		     options.addPreference("geo.enabled", false);
+			driver=new FirefoxDriver(options);
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
